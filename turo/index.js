@@ -98,7 +98,7 @@ mongoose
                   new Date(totalChangedDate[k]["s"].slice(0, 10));
                 tripDays = tripDays / (1000 * 60 * 60 * 24);
                 tripDays = parseInt(tripDays);
-                console.log(tripDays);
+
                 totalTripDays += tripDays;
                 let turnover = 0;
                 if (tripDays < 7) {
