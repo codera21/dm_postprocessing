@@ -99,7 +99,7 @@ mongoose
                 tripDays = tripDays / (1000 * 60 * 60 * 24);
                 tripDays = parseInt(tripDays);
                 console.log(tripDays);
-                totalTripDays += totalTripDays;
+                totalTripDays += tripDays;
                 let turnover = 0;
                 if (tripDays < 7) {
                   turnover = dailyRate * tripDays;
