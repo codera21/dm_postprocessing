@@ -3,7 +3,7 @@ const { csvToArr } = require("../utils/csvUtils");
 const mongoose = require("mongoose");
 const { mongoURI } = require("../config");
 const fs = require("fs");
-const finalFile = fs.createWriteStream("final_turo.csv", {
+const finalFile = fs.createWriteStream("final_turo_2.csv", {
   flags: "a"
 });
 
@@ -28,15 +28,15 @@ mongoose
       .catch(() => console.log("whoops"))
       .then(inputData => {
         for (let j = 0; j < inputData.length; j++) {
-          if (j > 100) {
-            break;
-          }
+          // if (j > 100) {
+          //   break;
+          // }
           const tCar = inputData[j];
           let queryParams = {
-            url: tCar.url,
-            daily_crawl_start_datetime: {
-              $gte: startDate
-            }
+            url: tCar.url
+            // daily_crawl_start_datetime: {
+            //   $gte: startDate
+            // }
           };
 
           TuroDailyModel.find(queryParams)

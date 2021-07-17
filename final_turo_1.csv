@@ -1,0 +1,102 @@
+city,make,model,name,owner,state,type,url,year,zip,average_turnover,total_turnover,total_trips_days,observed_trips
+Austin,Land Rover,Range Rover Sport,White Range Rover  Sport,Allison L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/land-rover/range-rover-sport/602421,2018,,252.00,1760,11,3
+Austin,Land Rover,Range Rover Sport,Champagne Range Rover Sport,Allison L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/land-rover/range-rover-sport/928552,2021,78701,0.00,0,0,0
+Austin,Tesla,Model 3,Sam's Tesla,Sam Y.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/tesla/model-3/864362,2019,78701,171.00,1192,8,2
+Austin,Vanderhall,Venice,Dream's Vanderhall Venice,Dream Moore ..,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/vanderhall/venice/931480,2021,78701,215.00,1500,6,1
+Austin,Chevrolet,Corvette,Hashim's Chevrolet,Dream Moore ..,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/chevrolet/corvette/913170,2019,78701,0.00,0,0,0
+Austin,Land Rover,Range Rover Sport,Ryan’s Range,Allison L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/land-rover/range-rover-sport/965393,2019,78701,753.00,5268,24,4
+Austin,BMW,I8,BMW i8 Roadster,Ryan S.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/bmw/i8/606571,2019,78701,829.00,5801,21,2
+Austin,Land Rover,Range Rover Sport,Dream Moore's Land Rover,Dream Moore ..,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/land-rover/range-rover-sport/996503,2021,78701,0.00,0,0,0
+Austin,Tesla,Model X,Archie's Tesla,Archie M.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/tesla/model-x/920349,2018,78701,0.00,0,0,0
+Austin,Land Rover,Range Rover,Supercharged Range Rover,Allison L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/land-rover/range-rover/928586,2018,78701,1034.00,7233,27,3
+Austin,Polaris,Slingshot,Dream Moore's Polaris,Dream Moore ..,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/polaris/slingshot/921116,2020,78701,492.00,3438,22,1
+Austin,Volkswagen,Golf GTI,Jose's Volkswagen,Jose M.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/volkswagen/golf-gti/993421,2017,,116.00,810,6,1
+Austin,BMW,X3,Lionsheart's BMW,Lionsheart L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/bmw/x3/968516,2017,,0.00,0,0,0
+Austin,BMW,5-Series,Hashim's BMW,Dream Moore ..,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/bmw/5-series/886575,2020,,330.00,2309,19,5
+Austin,Mercedes-benz,GLC-Class,Dream Moore's Mercedes-benz,Dream Moore ..,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/mercedes-benz/glc-class/1005857,2019,,321.00,2241,19,4
+Austin,Acura,MDX,Red 2020 MDX,Dream Moore ..,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/acura/mdx/914605,2020,,214.00,1498,21,6
+Austin,BMW,3-Series,Dream Moore's BMW,Dream Moore ..,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/bmw/3-series/1006033,2021,,228.00,1591,14,5
+Austin,Acura,MDX,Gabriela's Acura,Gabriela C.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/acura/mdx/857773,2020,,231.00,1616,19,4
+Austin,Volkswagen,Golf GTI,Paris's Volkswagen,Paris B.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/volkswagen/golf-gti/956955,2017,,185.00,1292,17,6
+Austin,Land Rover,Defender,Joseph's Land Rover,Joseph S.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/land-rover/defender/973550,2020,78701,489.00,3420,16,1
+Austin,Porsche,Panamera,Gregg's Panamera 2148,Gregg H.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/porsche/panamera/544197,2010,,376.00,2632,16,2
+Austin,Porsche,Macan,Gregg's Porsche Macan 4633,Gregg H.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/porsche/macan/638406,2015,,0.00,0,0,0
+Austin,Tesla,Model S,Gregg's Tesla,Gregg H.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/tesla/model-s/862791,2014,,317.00,2214,19,3
+Austin,Porsche,Cayenne,Fernando's Porsche,Fernando D.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/porsche/cayenne/885949,2016,,106.00,738,7,1
+Austin,Land Rover,Discovery Sport,Chris's Land Rover Discovery Sport,Chris P.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/land-rover/discovery-sport/750984,2017,,30.00,206,2,1
+Austin,Chevrolet,Volt,Gregg's Chevrolet,Gregg H.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/chevrolet/volt/983224,2012,,59.00,410,7,2
+Austin,Audi,A5,Nicole's Audi,Nicole T.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/audi/a5/746105,2012,,323.00,2259,23,3
+Austin,Chevrolet,Bolt EV,Gregg's Chevrolet,Gregg H.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/chevrolet/bolt-ev/1016746,2017,,236.00,1648,26,4
+Austin,Toyota,Tacoma,Jacob's Toyota,Jacob S.,TX,truck,https://turo.com/us/en/truck-rental/united-states/austin-tx/toyota/tacoma/1019771,2020,,85.00,589,11,2
+Austin,Mercedes-benz,GLC-Class,Cyan's Mercedes-Benz,Cyan D.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/mercedes-benz/glc-class/542691,2019,,257.00,1799,21,3
+Austin,BMW,X4,Stephen's BMW,Stephen M.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/bmw/x4/978644,2021,78701,373.00,2610,14,3
+Austin,Porsche,Cayenne,Stephen's Porsche,Stephen M.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/porsche/cayenne/999029,2021,78701,348.00,2436,12,5
+Austin,Land Rover,Range Rover Sport,Zach's  Range Rover SVR,Zach H.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/land-rover/range-rover-sport/856603,2017,78701,0.00,0,0,0
+Austin,FIAT,500e,Gregg's FIAT,Gregg H.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/fiat/500e/741796,2017,,129.00,900,20,5
+Austin,Audi,SQ5,Stephen's Audi,Stephen M.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/audi/sq5/1003306,2021,78701,337.00,2353,16,1
+Austin,Tesla,Model 3,Tyler's Tesla,Tyler R.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/tesla/model-3/845378,2019,78701,0.00,0,0,0
+Austin,BMW,3 Series,Zachary's BMW,Zachary M.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/bmw/3-series/990186,2014,,265.00,1850,25,2
+Austin,FIAT,500e,Gregg's FIAT,Gregg H.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/fiat/500e/928432,2014,,134.00,932,24,5
+Austin,Nissan,Altima,Larry's Nissan,Larry S.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/nissan/altima/1014782,2020,,0.00,0,0,0
+Austin,Porsche,911,Nicholas' Porsche 911,Nicholas C.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/porsche/911/494688,2006,78701,321.00,2241,9,3
+Austin,Maserati,Levante,Ashton's Maserati,Ashton P.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/maserati/levante/915890,2021,78701,377.00,2633,13,1
+Austin,Porsche,Boxster,Gregg's Porsche,Gregg H.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/porsche/boxster/658309,2015,78701,559.00,3911,20,5
+Austin,Ford,Mustang,Elliott's GT,Elliott D.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/ford/mustang/607544,2016,78701,0.00,0,0,0
+Austin,Aston Martin,DB9,nicholas's Aston Martin,Nicholas C.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/aston-martin/db9/729922,2007,78701,0.00,0,0,1
+Austin,FIAT,500e,Gregg's FIAT,Gregg H.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/fiat/500e/849486,2017,,153.00,1067,27,3
+Austin,FIAT,500e,Gregg's FIAT,Gregg H.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/fiat/500e/884073,2017,,110.00,765,17,7
+Austin,Tesla,Model 3,Austin's Tesla,Austin P.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/tesla/model-3/962000,2018,78701,0.00,0,0,0
+Austin,BMW,3 Series,Tony's BMW,Tony L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/bmw/3-series/582311,2016,,172.00,1204,14,3
+Austin,Jeep,Renegade,christopher's Jeep,Christopher F.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/jeep/renegade/827240,2015,,0.00,0,0,0
+Austin,Tesla,Model 3,Logan's Tesla,Logan S.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/tesla/model-3/774209,2020,,0.00,0,0,0
+Austin,Chevrolet,Tahoe,Will's Chevrolet,Will T.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/chevrolet/tahoe/999919,2019,,347.00,2423,17,1
+Austin,Subaru,XV Crosstrek,Jonathan's Subaru,Jonathan L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/subaru/xv-crosstrek/863424,2013,,217.00,1516,17,4
+Austin,Toyota,Camry,Jonathan's Toyota,Jonathan L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/toyota/camry/936091,2016,,289.00,2018,22,6
+Austin,Mazda,3,Justin's Mazda,Justin S.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/mazda/3/999799,2011,,130.00,904,14,2
+Austin,Toyota,Camry,Alonso's Toyota,Alonso T.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/toyota/camry/682243,2014,,0.00,0,0,0
+Austin,Subaru,XV Crosstrek,Jonathan's Subaru,Jonathan L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/subaru/xv-crosstrek/936135,2014,,129.00,903,10,2
+Austin,BMW,X7,Christine's BMW X7,Cristiano M.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/bmw/x7/836384,2020,78701,460.00,3214,17,1
+Austin,Toyota,RAV4,Jonathan's Toyota,Jonathan L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/toyota/rav4/936157,2018,,298.00,2083,22,6
+Austin,Jeep,Wrangler Unlimited,Joseph's Jeep,Joseph C.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/jeep/wrangler-unlimited/717333,2020,78701,202.00,1414,11,2
+Austin,Toyota,Corolla,Jonathan's Toyota,Jonathan L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/toyota/corolla/937012,2018,,246.00,1719,23,6
+Austin,FIAT,500e,Gregg's FIAT,Gregg H.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/fiat/500e/851345,2017,,93.00,650,21,6
+Austin,Mercedes-Benz,C-Class,Amelia's Mercedes-Benz,Amelia C.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/mercedes-benz/c-class/973277,2018,78701,0.00,0,0,0
+Austin,Toyota,Prius,Jonathan's Toyota,Jonathan L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/toyota/prius/715023,2013,,299.00,2091,23,5
+Austin,Subaru,Impreza,Jonathan's Subaru,Jonathan L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/subaru/impreza/725586,2012,,240.00,1680,21,7
+Austin,Acura,ILX,Dylan's Acura,Dylan B.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/acura/ilx/756972,2017,,150.00,1045,9,1
+Austin,Chevrolet,Colorado,gregg's Colorado 0987,Gregg H.,TX,truck,https://turo.com/us/en/truck-rental/united-states/austin-tx/chevrolet/colorado/377407,2016,,289.00,2018,23,6
+Austin,Mercedes-Benz,G-Class,evan's Mercedes-Benz,Evan C.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/mercedes-benz/g-class/977384,2017,78701,0.00,0,0,0
+Austin,Mazda,3,Constantinos's Mazda,Constantinos D.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/mazda/3/983242,2018,,185.00,1294,25,2
+Austin,FIAT,500e,Gregg's FIAT,Gregg H.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/fiat/500e/907796,2017,,127.00,885,21,5
+Austin,Volkswagen,Atlas Cross Sport,Jose's Volkswagen,Jose M.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/volkswagen/atlas-cross-sport/983044,2020,78701,304.00,2125,17,4
+Austin,Mercedes-benz,GLE-Class,Joseph's Mercedes-benz,Joseph C.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/mercedes-benz/gle-class/858936,2021,78701,372.00,2599,12,2
+Austin,Honda,Insight,Zack's Honda,Zack R.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/honda/insight/864386,2019,,154.00,1072,17,3
+Austin,Porsche,911,Phil's Porsche Carrera S Coupe,Phil K.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/porsche/911/906103,2008,78701,0.00,0,0,0
+Austin,Land Rover,Range Rover Evoque,Gregg's Land Rover 6385,Gregg H.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/land-rover/range-rover-evoque/631130,2013,,218.00,1523,19,4
+Austin,BMW,2 Series,Tauhha's BMW,Tauhha Z.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/bmw/2-series/926535,2017,,243.00,1700,15,4
+Austin,Audi,Q3,Tauhha's Audi,Tauhha Z.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/audi/q3/940801,2018,78701,96.00,669,6,1
+Austin,Honda,Accord,Emily's Honda,Emily B.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/honda/accord/997141,2010,,9.00,58,1,1
+Austin,Audi,SQ5,Phil's Audi,Phil K.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/audi/sq5/931770,2018,78701,164.00,1148,10,1
+Austin,Porsche,Taycan,Cristiano's Porsche,Cristiano M.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/porsche/taycan/901476,2020,,835.00,5845,24,2
+Austin,Porsche,Macan,Tauhha's Porsche,Tauhha Z.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/porsche/macan/942601,2018,78701,506.00,3536,26,3
+Austin,Porsche,Macan,Tauhha's Porsche,Tauhha Z.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/porsche/macan/919928,2018,78701,423.00,2961,22,2
+Austin,Volkswagen,Golf R,Phil's Volkswagen,Phil K.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/volkswagen/golf-r/911019,2019,78701,167.00,1168,8,2
+Austin,Nissan,Altima,Josh's Nissan,Josh L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/nissan/altima/386893,2010,,28.00,196,4,1
+Austin,Chevrolet,Corvette,HandiFleet's Stingray,HandiFleet L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/chevrolet/corvette/994059,2016,78701,720.00,5036,24,5
+Austin,BMW,3 Series,Tauhha's BMW,Tauhha Z.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/bmw/3-series/926598,2018,78701,323.00,2256,24,6
+Austin,Alfa-romeo,Giulia,Tauhha's Alfa-romeo,Tauhha Z.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/alfa-romeo/giulia/919858,2021,78701,353.00,2471,22,4
+Austin,Audi,A6,Tauhha's Audi,Tauhha Z.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/audi/a6/926576,2017,78701,428.00,2990,26,2
+Austin,Tesla,Model 3,HandiFleet's Tesla,HandiFleet L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/tesla/model-3/979289,2018,78701,609.00,4259,22,4
+Austin,Alfa-romeo,Giulia,Tauhha's Alfa-romeo,Tauhha Z.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/alfa-romeo/giulia/919896,2021,78701,355.00,2481,22,6
+Austin,Jeep,Wrangler,HandiFleet's Jeep,HandiFleet L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/jeep/wrangler/954600,2020,78701,317.00,2215,22,7
+Austin,smart,fortwo,ANGEL's smart,ANGEL L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/smart/fortwo/1020461,2010,,0.00,0,0,0
+Austin,Dodge,Charger,KRW's Dodge,Montel W.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/dodge/charger/980100,2021,,30.00,206,2,1
+Austin,Hyundai,Sonata,Larissa's Hyundai,Larissa K.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/hyundai/sonata/947920,2016,78701,0.00,0,0,0
+Austin,Jeep,Wrangler Unlimited,HandiFleet's Jeep,HandiFleet L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/jeep/wrangler-unlimited/1001840,2021,78701,318.00,2224,23,3
+Austin,Tesla,Model Y,Jad's Tesla,Jad A.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/tesla/model-y/938095,2021,78701,534.00,3736,22,3
+Austin,Audi,A7,HandiFleet's Audi,HandiFleet L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/audi/a7/1005034,2018,78701,408.00,2856,24,9
+Austin,BMW,2-Series,HandiFleet's BMW,HandiFleet L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/bmw/2-series/995115,2021,,374.00,2617,25,5
+Austin,Tesla,Model 3,HandiFleet's Tesla,HandiFleet L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/tesla/model-3/993380,2020,78701,392.00,2742,19,3
+Austin,Alfa Romeo,Stelvio,HandiFleet's Alfa Romeo,HandiFleet L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/alfa-romeo/stelvio/901596,2018,,274.00,1914,19,5
+Austin,Lexus,ES,HandiFleet's Lexus,HandiFleet L.,TX,car,https://turo.com/us/en/car-rental/united-states/austin-tx/lexus/es/968899,2021,,327.00,2289,21,6
+Austin,Alfa Romeo,Stelvio,HandiFleet's Alfa Romeo,HandiFleet L.,TX,suv,https://turo.com/us/en/suv-rental/united-states/austin-tx/alfa-romeo/stelvio/891177,2018,,258.00,1800,19,5
