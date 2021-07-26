@@ -76,3 +76,6 @@ mongoose
       });
   })
   .catch(err => console.log("Error Connecting to mongo: " + err));
+
+
+  // node --expose-gc --max_old_space_size=8192 turo_export
