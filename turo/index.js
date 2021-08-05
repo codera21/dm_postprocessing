@@ -3,6 +3,7 @@ const { csvToArr } = require("../utils/csvUtils");
 const mongoose = require("mongoose");
 const { mongoURI } = require("../config");
 const fs = require("fs");
+const { isObject } = require("util");
 const finalFile = fs.createWriteStream("final_turo_2.csv", {
   flags: "a"
 });
@@ -31,12 +32,16 @@ mongoose
           // if (j > 100) {
           //   break;
           // }
+
+          // url:
+          //   "https://turo.com/us/en/car-rental/united-states/austin-tx/chevrolet/camaro/803518",
+
           const tCar = inputData[j];
           let queryParams = {
             url: tCar.url,
             daily_crawl_start_datetime: {
               $gte: "2021-07-01T00:00:00.000Z",
-              $lte: "2021-08-01T00:00:00.000Z"
+              $lte: "2021-07-31T00:00:00.000Z"
             }
           };
 
@@ -44,6 +49,7 @@ mongoose
             .maxTime(30 * 1000)
             .sort({ daily_crawl_start_datetime: "asc" })
             .exec((err, doc) => {
+              console.log(err);
               let observedTrips, minTrip, maxTrip;
               let prevTripCount;
               let dailyRate = 0;
@@ -54,8 +60,19 @@ mongoose
 
               for (let i = 0; i < doc.length; i++) {
                 const car = doc[i]._doc;
+
+                const nextCarAvaliable = doc[i + 1]
+                  ? doc[i + 1]._doc.available || false
+                  : false;
+
+                const next2CarAvaliable = doc[i + 2]
+                  ? doc[i + 2]._doc.avaliable || false
+                  : false;
+
+                const avaliable = car.available || false;
+
                 const trip = parseInt(car.trips);
-                const avaliable = car.available;
+                const unavailableReason = car.unavailable_reason;
 
                 if (i === 0) {
                   minTrip = maxTrip = trip;
@@ -73,19 +90,25 @@ mongoose
                 }
 
                 if (
-                  avaliable == false &&
-                  car.unavailable_reason === "VEHICLE_UNAVAILABLE"
+                  unavailableReason === "VEHICLE_UNAVAILABLE" &&
+                  nextCarAvaliable == false &&
+                  next2CarAvaliable == false
                 ) {
-                  changedDate.push(car.input_start_datetime);
+                  changedDate.push(car.daily_crawl_start_datetime);
                 }
 
                 if (prevTripCount < trip) {
-                  changedDate.push(car.input_start_datetime);
                   prevTripCount = trip;
-                  totalChangedDate.push({
-                    s: changedDate[0],
-                    e: changedDate[changedDate.length - 1]
-                  });
+                  if (
+                    changedDate[0] !== undefined ||
+                    changedDate[changedDate.length - 1] !== undefined
+                  ) {
+                    totalChangedDate.push({
+                      s: changedDate[0],
+                      e: changedDate[changedDate.length - 1]
+                    });
+                  }
+
                   changedDate = [];
                 }
               }
@@ -119,7 +142,7 @@ mongoose
 
                 totalTurnover += Math.ceil(turnover);
               }
-              const averageTurnover = Math.ceil(totalTurnover / 7).toFixed(2);
+              const averageTurnover = Math.ceil(totalTurnover / 31).toFixed(2);
 
               let finalData = {
                 city: tCar.city,
@@ -144,7 +167,7 @@ mongoose
                 .join(",");
               finalCsv = finalCsv + "\n";
               finalFile.write(finalCsv);
-              console.log("added");
+              console.count("added");
             });
         }
       });
