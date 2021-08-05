@@ -35,7 +35,7 @@ mongoose
           let queryParams = {
             url: tCar.url,
             daily_crawl_start_datetime: {
-              $gte: "2021-07-16T00:00:00.000Z",
+              $gte: "2021-07-01T00:00:00.000Z",
               $lte: "2021-08-01T00:00:00.000Z"
             }
           };
