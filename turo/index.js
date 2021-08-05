@@ -33,10 +33,11 @@ mongoose
           // }
           const tCar = inputData[j];
           let queryParams = {
-            url: tCar.url
-            // daily_crawl_start_datetime: {
-            //   $gte: startDate
-            // }
+            url: tCar.url,
+            daily_crawl_start_datetime: {
+              $gte: "2021-07-16T00:00:00.000Z",
+              $lte: "2021-08-01T00:00:00.000Z"
+            }
           };
 
           TuroDailyModel.find(queryParams)
@@ -71,7 +72,10 @@ mongoose
                   }
                 }
 
-                if (avaliable == false) {
+                if (
+                  avaliable == false &&
+                  car.unavailable_reason === "VEHICLE_UNAVAILABLE"
+                ) {
                   changedDate.push(car.input_start_datetime);
                 }
 

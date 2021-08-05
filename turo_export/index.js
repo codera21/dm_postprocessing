@@ -106,7 +106,7 @@ mongoose
             .join(",");
           finalCsv = finalCsv + "\n";
           finalFile.write(finalCsv);
-          console.log("added");
+          console.count("added");
         }
       });
   })
