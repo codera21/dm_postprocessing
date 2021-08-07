@@ -1,9 +1,8 @@
-const TuroDailyModel = require("../utils/turo_car_daily");
+ const TuroDailyModel = require("../utils/turo_car_daily");
 const { csvToArr } = require("../utils/csvUtils");
 const mongoose = require("mongoose");
 const { mongoURI } = require("../config");
 const fs = require("fs");
-const { isObject } = require("util");
 const finalFile = fs.createWriteStream("final_turo_2.csv", {
   flags: "a"
 });
@@ -29,13 +28,6 @@ mongoose
       .catch(() => console.log("whoops"))
       .then(inputData => {
         for (let j = 0; j < inputData.length; j++) {
-          // if (j > 100) {
-          //   break;
-          // }
-
-          // url:
-          //   "https://turo.com/us/en/car-rental/united-states/austin-tx/chevrolet/camaro/803518",
-
           const tCar = inputData[j];
           let queryParams = {
             url: tCar.url,

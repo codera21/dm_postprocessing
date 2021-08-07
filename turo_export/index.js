@@ -1,9 +1,9 @@
 const TuroDailyModel = require("../utils/turo_car_daily");
-
 const mongoose = require("mongoose");
 const { mongoURI } = require("../config");
 const fs = require("fs");
-const finalFile = fs.createWriteStream("turo_export_2.csv", {
+const { csvToArr } = require("../utils/csvUtils");
+const finalFile = fs.createWriteStream("turo_export_final.csv", {
   flags: "a"
 });
 
@@ -39,14 +39,10 @@ mongoose
     useFindAndModify: false
   })
   .then(async () => {
-    console.log("mongoose connected");
-
-    const startDate = new Date(2021, 06, 01).toISOString();
-    const endDate = new Date(2021, 06, 15).toISOString();
     let queryParams = {
       daily_crawl_start_datetime: {
-        $gte: "2021-07-16T00:00:00.000Z",
-        $lte: "2021-08-01T00:00:00.000Z"
+        $gte: "2021-07-15T00:00:00.000Z",
+        $lte: "2021-07-31T00:00:00.000Z"
       }
     };
 
@@ -77,11 +73,11 @@ mongoose
 
           let finalData = {
             url: car.url,
-            car_site_name: car.car_site_name,
+            // car_site_name: car.car_site_name,
             location: car.location,
             make: car.make,
             model: car.model,
-            name: car.name,
+            //name: car.name,
             owner: car.owner,
             trips: car.trips,
             daily_crawl_start_datetime: new Date(
@@ -98,7 +94,7 @@ mongoose
           };
           // console.log(finalData);
           let keys = Object.keys(finalData);
-          if (i === 0) {
+          if (i === 0 && j === 0) {
             finalFile.write(keys.join(",") + "\n");
           }
           let finalCsv = keys
