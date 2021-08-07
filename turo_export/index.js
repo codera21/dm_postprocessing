@@ -94,7 +94,7 @@ mongoose
           };
           // console.log(finalData);
           let keys = Object.keys(finalData);
-          if (i === 0 && j === 0) {
+          if (i === 0) {
             finalFile.write(keys.join(",") + "\n");
           }
           let finalCsv = keys
